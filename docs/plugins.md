@@ -203,6 +203,14 @@ Ready-to-go basemaps, with little or no configuration at all.
 		</td>
 	</tr>
 	<tr>
+		<td>
+			<a href="https://gitlab.com/IvanSanchez/Leaflet.MapkitMutant">L.MapkitMutant</a>
+		</td><td>
+			Displays Apple's MapkitJS basemaps.
+		</td><td>
+			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
+		</td>	</tr>
+	<tr>
         <td>
         	<a href="https://supermap.github.io/supermap-leaflet">SuperMap Leaflet</a>
         </td><td>
@@ -516,6 +524,15 @@ The following plugins change the way that tile or image layers are displayed in 
 	</tr>
 	<tr>
 		<td>
+			<a href="https://github.com/xtk93x/Leaflet.TileLayer.ColorFilter">Leaflet.TileLayer.ColorFilter</a>
+		</td><td>
+			A simple and lightweight Leaflet plugin to apply CSS filters on map tiles (<a href="https://xtk93x.github.io/Leaflet.TileLayer.ColorFilter/">demo</a>).
+		</td><td>
+			<a href="https://github.com/xtk93x">Cláudio Kawakani</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
 			<a href="https://github.com/frogcat/leaflet-tilelayer-mask">Leaflet.TileLayer.Mask</a>
 		</td><td>
 			A TileLayer with mask effect (<a href="http://frogcat.github.io/leaflet-tilelayer-mask/default/">demo</a>)
@@ -547,7 +564,7 @@ The following plugins change the way that tile or image layers are displayed in 
 		<td>
 			<a href="https://gitlab.com/IvanSanchez/Leaflet.TileLayer.GL">Leaflet.TileLayer.GL</a>
 		</td><td>
-			Applies custom WebGL shaders to each tile in a tilelayer. Demos: <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-mandelbrot.html">Mandelbrot set</a>, <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-antitoner.html">manipulate tile colours</a>, <a href="http://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/demo-floow.html">elevation with terrain-RBG tiles</a>.
+			Applies custom WebGL shaders to each tile in a tilelayer (<a href="https://ivansanchez.gitlab.io/Leaflet.TileLayer.GL/demo/repl.html">demo</a>).
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
 		</td>
@@ -579,6 +596,15 @@ The following plugins change the way that tile or image layers are displayed in 
 			<a href="https://github.com/brendan-ward">Brendan Ward</a>
 		</td>
 	</tr>
+	<tr>
+        	<td>
+        		<a href="https://github.com/dayjournal/Leaflet.Control.Opacity">Leaflet.Control.Opacity</a>
+        	</td><td>
+			Make multiple tile layers transparent. (<a href="https://dayjournal.github.io/Leaflet.Control.Opacity">demo</a>)
+        	</td><td>
+        		<a href="https://day-journal.com">Yasunori Kirimoto</a>
+        	</td>
+    	</tr>
 </table>
 
 
@@ -685,7 +711,7 @@ The following plugins change the way that tile layers are loaded into the map.
 
 ### Vector tiles
 
-Plugins to display <a href="https://github.com/mapbox/vector-tile-spec">vector tiles</a>.
+Plugins to display [vector tiles](https://github.com/mapbox/vector-tile-spec).
 
 <table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
 	<tr>
@@ -722,6 +748,15 @@ Plugins to display <a href="https://github.com/mapbox/vector-tile-spec">vector t
 			Display gridded vector data (GeoJSON or TopoJSON sliced with geojson-vt, or protobuf vector tiles) in Leaflet 1.0.0. See <a href="https://github.com/IvanSanchez/Leaflet.VectorGrid#demo">demos</a>. Not compatible with 0.7.x.
 		</td><td>
 			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://gitlab.com/jkuebart/Leaflet.VectorTileLayer/">Leaflet.VectorTileLayer</a>
+		</td><td>
+			A Leaflet layer for displaying vector tiles. Very similar to <a href="https://github.com/IvanSanchez/Leaflet.VectorGrid">Leaflet.VectorGrid</a> except for styling: a single style can be specified for all layers while VectorGrid requires knowing layer names in advance. For Leaflet 1.0.0.
+		</td><td>
+			<a href="https://gitlab.com/jkuebart/">Joachim Kuebart</a>
 		</td>
 	</tr>
 </table>
@@ -970,6 +1005,15 @@ These plugins create useful overlays from scratch, no loading required.
 	</tr>
 	<tr>
 		<td>
+			<a href="https://github.com/bill-chadwick/Leaflet.MetricGrid">Leaflet.MetricGrid</a>
+		</td><td>
+			A general purpose Metric Grid overlay for Leaflet with ready defined UTM, British and Irish Grids.
+		</td><td>
+			<a href="https://github.com/bill-chadwick">Bill Chadwick</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
 			<a href="https://github.com/joergdietrich/Leaflet.Terminator">Leaflet.Terminator</a>
 		</td><td>Overlay day and night regions on a map.
 		</td><td>
@@ -1025,7 +1069,7 @@ Load overlay data from third-party-services. See also [basemap providers](#basem
 <table class="plugins"><tr><th>Plugin</th><th>Description</th><th>Maintainer</th></tr>
 	<tr>
 		<td>
-			<a href="http://geojason.info/leaflet-vector-layers/">Leaflet Vector Layers</a>
+			<a href="http://jasonsanford.github.io/leaflet-vector-layers/">Leaflet Vector Layers</a>
 		</td><td>
 			Allows to easily create vector layers from a number of geo web services, such as ArcGIS Server, Arc2Earth, GeoIQ, CartoDB and GIS Cloud.
 		</td><td>
@@ -1059,6 +1103,17 @@ Load overlay data from third-party-services. See also [basemap providers](#basem
 		</td>
 		<td>
 			<a href="https://github.com/MatthewBarker">Matthew Barker</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://github.com/windycom/API">Windy-Leaflet-plugin</a>
+		</td>
+		<td>
+			Displays animated weather map on your page using Windy's free API.
+		</td>
+		<td>
+			<a href="https://www.windy.com">Windy.com</a>
 		</td>
 	</tr>
 </table>
@@ -1385,10 +1440,10 @@ These plugins provide new markers or news ways of converting abstract data into 
         </tr>
 	<tr>
 		<td>
-			<a href="https://github.com/wwwouaiebe/leaflet.marker.pin">leaflet.marker.pin</a>
+			<a href="https://github.com/wwwouaiebe/leaflet.TravelNotes">leaflet.TravelNotes</a>
 		</td>
 		<td>
-			Pins are markers that can be added and edited on the map by the end user. <a href="http://wwwouaiebe.github.io/leaflet.marker.pin/">Demo</a>.
+			Editable markers and routing engine for leaflet. The routing engine have plugins for Mapbox, GraphHopper and OSRM and can be used for car, bike or pedestrian route. <a href="https://wwwouaiebe.github.io/leaflet.TravelNotes/?lng=en">Demo</a>.
 		</td>
 		<td>
 			<a href="https://github.com/wwwouaiebe">Christian Guyette</a>
@@ -1615,6 +1670,29 @@ These plugins provide new markers or news ways of converting abstract data into 
 			<a href="https://webkid.io">webkid</a>
 		</td>
 	</tr>
+	<tr>
+		<td>
+			<a href="https://gitlab.com/IvanSanchez/Leaflet.RepeatedMarkers">Leaflet.RepeatedMarkers</a>
+		</td>
+		<td>
+			Displays markers when wrapping around the globe, once every 360 degrees of longitude (<a href="https://ivansanchez.gitlab.io/Leaflet.RepeatedMarkers/demo.html">demo</a>).
+		</td>
+		<td>
+			<a href="https://github.com/IvanSanchez">Iván Sánchez</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://github.com/nuclearsecrecy/Leaflet.greatCircle">Leaflet.greatCircle</a>
+		</td>
+		<td>
+			A wrapper class for the Leaflet.js Polygon object that draws true "great circles" (showing true geodesic, spherical paths) that wrap around the Earth (<a href="https://nuclearsecrecy.github.io/Leaflet.greatCircle/example/">demo</a>).
+		</td>
+		<td>
+			<a href="https://github.com/nuclearsecrecy/">Alex Wellerstein</a>
+		</td>
+	</tr>
+
 </table>
 
 
@@ -1789,6 +1867,15 @@ When you are displaying a lot of data, these plugins will make your map look cle
 			A simple plugin to create Feature Groups that add their child layers into a parent group. Typical usage is to switch them through L.Control.Layers to dynamically add/remove groups of markers from Leaflet.markercluster. <a href="http://ghybs.github.io/Leaflet.FeatureGroup.SubGroup/examples/subGroup-markercluster-controlLayers-realworld.388.html">Demo</a>.
 		</td><td>
 			<a href="https://github.com/ghybs">ghybs</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://github.com/ZijingPeng/leaflet-tooltip-layout">leaflet-tooltip-layout</a>
+		</td><td>
+			A plugin to avoid tooltips overlapping and make it easier to find out the relationship between each tooltip and marker. <a href="https://zijingpeng.github.io/overlapping-avoided-tooltip/">Demo</a>.
+		</td><td>
+			<a href="https://github.com/ZijingPeng">Zijing Peng</a>
 		</td>
 	</tr>
 </table>
@@ -2252,6 +2339,17 @@ Most data is two-dimensional (latitude and longitude), but some data has more di
 			A Leaflet plugin for drawing gradients along polylines.
 		</td><td>
 			<a href="https://github.com/iosphere">iosphere</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://github.com/linghuam/Leaflet.TrackPlayBack">leaflet.TrackPlayBack</a>
+		</td>
+		<td>
+			A leaflet track-playback plugin, can display and dynamically play tracks. <a href="https://linghuam.github.io/Leaflet.TrackPlayBack/">Demo</a>.
+		</td>
+		<td>
+			<a href="https://github.com/linghuam">linghuam</a>
 		</td>
 	</tr>
 </table>
@@ -2932,7 +3030,7 @@ Display two maps at once. One of them might be a different size and zoom level, 
 	</tr>
 	<tr>
 		<td>
-			<a href="http://jieter.github.io/Leaflet.layerscontrol-minimap/">Leaflet.layerscontrol-minimap</a>
+			<a href="https://github.com/jieter/Leaflet.layerscontrol-minimap">Leaflet.layerscontrol-minimap</a>
 		</td><td>
 			Extends the default Leaflet layers control with synced minimaps.
 		</td><td>
@@ -3549,6 +3647,15 @@ Buttons, sliders, toolbars, sidebars, and panels.
 			<a href="https://github.com/publiclab">Public Lab</a>
 		</td>
 	</tr>
+	<tr>
+		<td>
+			<a href="https://github.com/jjimenezshaw/Leaflet.Control.Resizer">Leaflet.Control.Resizer</a>
+		</td><td>
+			Control to resize your map on the right or bottom side. See <a href="https://jjimenezshaw.github.io/Leaflet.Control.Resizer/examples/basic.html">demo</a>
+		</td><td>
+			<a href="https://github.com/jjimenezshaw/">Javier Jimenez Shaw</a>
+		</td>
+	</tr>
 </table>
 
 
@@ -3832,6 +3939,17 @@ The following plugins use external services to calculate driving or walking rout
     		<a href="http://skedgo.com/">SkedGo</a>
     	</td>
     </tr>
+	<tr>
+		<td>
+			<a href="https://github.com/wwwouaiebe/leaflet.TravelNotes">leaflet.TravelNotes</a>
+		</td>
+		<td>
+			Editable markers and routing engine for leaflet. The routing engine have plugins for Mapbox, GraphHopper and OSRM and can be used for car, bike or pedestrian route. <a href="https://wwwouaiebe.github.io/leaflet.TravelNotes/?lng=en">Demo</a>.
+		</td>
+		<td>
+			<a href="https://github.com/wwwouaiebe">Christian Guyette</a>
+		</td>
+	</tr>
 </table>
 
 
@@ -4051,6 +4169,15 @@ Ease your development integrating Leaflet into a development framework or automa
 			Integrate Leaflet in applications made with the <a href='http://famo.us'>famo.us</a> web framework.
 		</td><td>
 			<a href="http://www.gloey.nl">Hein Rutjes</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://github.com/Asymmetrik/ngx-leaflet">ngx-leaflet</a>
+		</td><td>
+			Leaflet components and extensions for <a href="https://angular.io/">Angular.io</a>.
+		</td><td>
+			<a href="https://asymmetrik.com/">Asymmetrik, Ltd.</a>
 		</td>
 	</tr>
 	<tr>
