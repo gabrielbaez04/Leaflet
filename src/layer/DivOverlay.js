@@ -103,7 +103,7 @@ export var DivOverlay = Layer.extend({
 	},
 
 	// @method getElement: String|HTMLElement
-	// Alias for [getContent()](#popup-getcontent)
+	// Returns the HTML container of the popup.
 	getElement: function () {
 		return this._container;
 	},
@@ -178,6 +178,8 @@ export var DivOverlay = Layer.extend({
 				latlng = layer.getCenter();
 			} else if (layer.getLatLng) {
 				latlng = layer.getLatLng();
+			} else if (layer.getBounds) {
+				latlng = layer.getBounds().getCenter();
 			} else {
 				throw new Error('Unable to get source layer LatLng.');
 			}
